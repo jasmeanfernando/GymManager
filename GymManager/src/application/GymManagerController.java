@@ -31,41 +31,19 @@ public class GymManagerController
 	
 	//-> member information for member database
 	@FXML
-	private TextField firstNameDatabase;
-	@FXML
-	private TextField lastNameDatabase;
-	@FXML
-	private DatePicker dobDatabase;
-	@FXML
-	private TextField locationDatabase;
+	private TextField firstNameDatabase, lastNameDatabase, dobDatabase, locationDatabase;
 	@FXML
 	private RadioButton standard, family, premium;
 	
 	//-> member information for scheduling fitness classes
 	@FXML
-	private TextField fitnessClass;
-	@FXML
-	private TextField instructorClass;
-	@FXML
-	private TextField locationClass;
-	@FXML
-	private TextField firstNameClass;
-	@FXML
-	private TextField lastNameClass;
+	private TextField fitnessClass, instructorClass, locationClass, firstNameClass, lastNameClass;
 	@FXML
 	private DatePicker dobClass;
 	
 	//-> member information for scheduling fitness classes
 	@FXML
-	private TextField fitnessClassGuest;
-	@FXML
-	private TextField instructorClassGuest;
-	@FXML
-	private TextField locationClassGuest;
-	@FXML
-	private TextField firstNameClassGuest;
-	@FXML
-	private TextField lastNameClassGuest;
+	private TextField fitnessClassGuest, instructorClassGuest, locationClassGuest, firstNameClassGuest, lastNameClassGuest;
 	@FXML
 	private DatePicker dobClassGuest;
 	
